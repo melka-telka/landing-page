@@ -83,7 +83,7 @@ img {
 /* --SECOND SECTION-- */
 
 .information-container {
-    height: 500px;
+    height: 450px;
     text-align: center;
 }
 
@@ -115,10 +115,15 @@ img {
     object-fit: cover; 
 }
 
+.pictures-container p {
+    color: #1f2937;
+    font-weight: bold;
+}
+
 /* --THIRD SECTION-- */
 
 .quote-background {
-    height: 500px;
+    height: 450px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -140,4 +145,51 @@ img {
     font-weight: bold;
     color: #1f2937;
     font-size: 22px;
+}
+
+/* --FOURTH SECTION-- */
+
+.action-background {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    width: 65%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action-container .text {
+    color: white;
+}
+
+.text .action {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.action-container button {
+    border: solid white;
+    font-size: 16px;
+}
+
+/* --FOOTER-- */
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    color: white;
 }
